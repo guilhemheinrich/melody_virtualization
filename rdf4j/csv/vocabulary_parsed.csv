@@ -1,0 +1,150 @@
+o,p,s
+http://www.phenome-fppn.fr/vocabulary/2017,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Ontology
+http://www.phenome-fppn.fr/vocabulary/2017,http://www.w3.org/2000/01/rdf-schema#comment,"Authors : Anne TIREAU, Alexandre MAIRIN, Jonathan MINEAU, Isabelle Nembrot, Morgane Vidal, Pascal NEVEU"
+http://www.phenome-fppn.fr/vocabulary/2017,http://www.w3.org/2000/01/rdf-schema#comment,"INRA MISTEA
+Copyright © - INRA - 2014 - 2016
+The Object Ontology is licensed by CC 4.0 (http://creativecommons.org/licenses/by/4.0/legalcode)"
+http://www.phenome-fppn.fr/vocabulary/2017,http://www.w3.org/2000/01/rdf-schema#label,SILEX - scientific object ontology
+http://www.phenome-fppn.fr/vocabulary/2017,http://www.w3.org/2002/07/owl#versionIRI,http://www.phenome-fppn.fr/vocabulary/2017
+http://www.phenome-fppn.fr/vocabulary/2017,http://www.w3.org/2002/07/owl#versionInfo,Version 2.1 (2016-06-03T12:00:00+01:00) created by INRA - MISTEA
+http://www.phenome-fppn.fr/vocabulary/2017#Contract,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#Contract,http://www.w3.org/2000/01/rdf-schema#label,contract
+http://www.phenome-fppn.fr/vocabulary/2017#Contract,http://www.w3.org/2000/01/rdf-schema#label,contrat
+http://www.phenome-fppn.fr/vocabulary/2017#Contract,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.phenome-fppn.fr/vocabulary/2017#Document
+http://www.phenome-fppn.fr/vocabulary/2017#Document,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#Document,http://www.w3.org/2000/01/rdf-schema#label,document
+http://www.phenome-fppn.fr/vocabulary/2017#Document,http://www.w3.org/2000/01/rdf-schema#label,document
+http://www.phenome-fppn.fr/vocabulary/2017#CultivatedLand,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#CultivatedLand,http://www.w3.org/2000/01/rdf-schema#label,Cultivated Land
+http://www.phenome-fppn.fr/vocabulary/2017#CultivatedLand,http://www.w3.org/2000/01/rdf-schema#label,Terre cultivée
+http://www.phenome-fppn.fr/vocabulary/2017#DataFile,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#DataFile,http://www.w3.org/2000/01/rdf-schema#label,data file
+http://www.phenome-fppn.fr/vocabulary/2017#DataFile,http://www.w3.org/2000/01/rdf-schema#label,fichier de données
+http://www.phenome-fppn.fr/vocabulary/2017#DataFile,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.phenome-fppn.fr/vocabulary/2017#Document
+http://www.phenome-fppn.fr/vocabulary/2017#ElaboratedVariable,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#ElaboratedVariable,http://www.w3.org/2000/01/rdf-schema#label,elaborated variable
+http://www.phenome-fppn.fr/vocabulary/2017#ElaboratedVariable,http://www.w3.org/2000/01/rdf-schema#label,variable élaborée
+http://www.phenome-fppn.fr/vocabulary/2017#ElaboratedVariable,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.phenome-fppn.fr/vocabulary/2017#Variable
+http://www.phenome-fppn.fr/vocabulary/2017#Variable,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#Variable,http://www.w3.org/2000/01/rdf-schema#label,variable
+http://www.phenome-fppn.fr/vocabulary/2017#Variable,http://www.w3.org/2000/01/rdf-schema#label,variable
+http://www.phenome-fppn.fr/vocabulary/2017#Experiment,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#Experiment,http://www.w3.org/2000/01/rdf-schema#label,experiment
+http://www.phenome-fppn.fr/vocabulary/2017#Experiment,http://www.w3.org/2000/01/rdf-schema#label,expérimentation
+http://www.phenome-fppn.fr/vocabulary/2017#ExperimentalDesign,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#ExperimentalDesign,http://www.w3.org/2000/01/rdf-schema#label,experimental design
+http://www.phenome-fppn.fr/vocabulary/2017#ExperimentalDesign,http://www.w3.org/2000/01/rdf-schema#label,protocole expérimental
+http://www.phenome-fppn.fr/vocabulary/2017#ExperimentalDesign,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.phenome-fppn.fr/vocabulary/2017#Document
+http://www.phenome-fppn.fr/vocabulary/2017#Fields,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#Fields,http://www.w3.org/2000/01/rdf-schema#label,fields
+http://www.phenome-fppn.fr/vocabulary/2017#Fields,http://www.w3.org/2000/01/rdf-schema#label,champs
+http://www.phenome-fppn.fr/vocabulary/2017#GeneticMaterial,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#GeneticMaterial,http://www.w3.org/2000/01/rdf-schema#label,Genetic Material
+http://www.phenome-fppn.fr/vocabulary/2017#GeneticMaterial,http://www.w3.org/2000/01/rdf-schema#label,Matériel Génétique
+http://www.phenome-fppn.fr/vocabulary/2017#HemisphericalImage,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#HemisphericalImage,http://www.w3.org/2000/01/rdf-schema#label,hemispherical image
+http://www.phenome-fppn.fr/vocabulary/2017#HemisphericalImage,http://www.w3.org/2000/01/rdf-schema#label,image hémisphérique
+http://www.phenome-fppn.fr/vocabulary/2017#HemisphericalImage,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.phenome-fppn.fr/vocabulary/2017#Image
+http://www.phenome-fppn.fr/vocabulary/2017#Image,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#Image,http://www.w3.org/2000/01/rdf-schema#label,image
+http://www.phenome-fppn.fr/vocabulary/2017#Image,http://www.w3.org/2000/01/rdf-schema#label,image
+http://www.phenome-fppn.fr/vocabulary/2017#MasterThesis,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#MasterThesis,http://www.w3.org/2000/01/rdf-schema#label,master thesis
+http://www.phenome-fppn.fr/vocabulary/2017#MasterThesis,http://www.w3.org/2000/01/rdf-schema#label,rapport de stage de master
+http://www.phenome-fppn.fr/vocabulary/2017#MasterThesis,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.phenome-fppn.fr/vocabulary/2017#Document
+http://www.phenome-fppn.fr/vocabulary/2017#Method,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#Method,http://www.w3.org/2000/01/rdf-schema#label,method
+http://www.phenome-fppn.fr/vocabulary/2017#Method,http://www.w3.org/2000/01/rdf-schema#label,méthode
+http://www.phenome-fppn.fr/vocabulary/2017#Multimedia,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#Multimedia,http://www.w3.org/2000/01/rdf-schema#label,multimedia
+http://www.phenome-fppn.fr/vocabulary/2017#Multimedia,http://www.w3.org/2000/01/rdf-schema#label,multimedia
+http://www.phenome-fppn.fr/vocabulary/2017#Multimedia,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.phenome-fppn.fr/vocabulary/2017#Document
+http://www.phenome-fppn.fr/vocabulary/2017#Paper,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#Paper,http://www.w3.org/2000/01/rdf-schema#label,paper
+http://www.phenome-fppn.fr/vocabulary/2017#Paper,http://www.w3.org/2000/01/rdf-schema#label,publication scientifique
+http://www.phenome-fppn.fr/vocabulary/2017#Paper,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.phenome-fppn.fr/vocabulary/2017#Document
+http://www.phenome-fppn.fr/vocabulary/2017#PhDThesis,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#PhDThesis,http://www.w3.org/2000/01/rdf-schema#label,PhD thesis
+http://www.phenome-fppn.fr/vocabulary/2017#PhDThesis,http://www.w3.org/2000/01/rdf-schema#label,thèse
+http://www.phenome-fppn.fr/vocabulary/2017#PhDThesis,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.phenome-fppn.fr/vocabulary/2017#Document
+http://www.phenome-fppn.fr/vocabulary/2017#Platform,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#Platform,http://www.w3.org/2000/01/rdf-schema#label,platform
+http://www.phenome-fppn.fr/vocabulary/2017#Platform,http://www.w3.org/2000/01/rdf-schema#label,plateforme
+http://www.phenome-fppn.fr/vocabulary/2017#Plot,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#Plot,http://www.w3.org/2000/01/rdf-schema#label,plot
+http://www.phenome-fppn.fr/vocabulary/2017#Plot,http://www.w3.org/2000/01/rdf-schema#label,micro parcelle
+http://www.phenome-fppn.fr/vocabulary/2017#Plot,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.phenome-fppn.fr/vocabulary/2017#AgronomicalObject
+http://www.phenome-fppn.fr/vocabulary/2017#Protocol,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#Protocol,http://www.w3.org/2000/01/rdf-schema#label,protocol
+http://www.phenome-fppn.fr/vocabulary/2017#Protocol,http://www.w3.org/2000/01/rdf-schema#label,protocole
+http://www.phenome-fppn.fr/vocabulary/2017#Protocol,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.phenome-fppn.fr/vocabulary/2017#Document
+http://www.phenome-fppn.fr/vocabulary/2017#RGBImage,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#RGBImage,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.phenome-fppn.fr/vocabulary/2017#Image
+http://www.phenome-fppn.fr/vocabulary/2017#ResearchContract,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#ResearchContract,http://www.w3.org/2000/01/rdf-schema#label,research contract
+http://www.phenome-fppn.fr/vocabulary/2017#ResearchContract,http://www.w3.org/2000/01/rdf-schema#label,contrat de recherche
+http://www.phenome-fppn.fr/vocabulary/2017#ResearchContract,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.phenome-fppn.fr/vocabulary/2017#Document
+http://www.phenome-fppn.fr/vocabulary/2017#ScientificDocument,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#ScientificDocument,http://www.w3.org/2000/01/rdf-schema#label,scientific document
+http://www.phenome-fppn.fr/vocabulary/2017#ScientificDocument,http://www.w3.org/2000/01/rdf-schema#label,document scientifique
+http://www.phenome-fppn.fr/vocabulary/2017#ScientificDocument,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.phenome-fppn.fr/vocabulary/2017#Document
+http://www.phenome-fppn.fr/vocabulary/2017#Species,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#Species,http://www.w3.org/2000/01/rdf-schema#label,Species
+http://www.phenome-fppn.fr/vocabulary/2017#Species,http://www.w3.org/2000/01/rdf-schema#label,Espèce
+http://www.phenome-fppn.fr/vocabulary/2017#Species,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.phenome-fppn.fr/vocabulary/2017#GeneticMaterial
+http://www.phenome-fppn.fr/vocabulary/2017#TechnicalDocument,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#TechnicalDocument,http://www.w3.org/2000/01/rdf-schema#label,technical document
+http://www.phenome-fppn.fr/vocabulary/2017#TechnicalDocument,http://www.w3.org/2000/01/rdf-schema#label,document technique
+http://www.phenome-fppn.fr/vocabulary/2017#TechnicalDocument,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.phenome-fppn.fr/vocabulary/2017#Document
+http://www.phenome-fppn.fr/vocabulary/2017#Trait,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#Trait,http://www.w3.org/2000/01/rdf-schema#label,trait
+http://www.phenome-fppn.fr/vocabulary/2017#Trait,http://www.w3.org/2000/01/rdf-schema#label,trait
+http://www.phenome-fppn.fr/vocabulary/2017#Unit,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#Unit,http://www.w3.org/2000/01/rdf-schema#label,unit
+http://www.phenome-fppn.fr/vocabulary/2017#Unit,http://www.w3.org/2000/01/rdf-schema#label,unité
+http://www.phenome-fppn.fr/vocabulary/2017#Variety,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#Variety,http://www.w3.org/2000/01/rdf-schema#label,Variety
+http://www.phenome-fppn.fr/vocabulary/2017#Variety,http://www.w3.org/2000/01/rdf-schema#label,Variété
+http://www.phenome-fppn.fr/vocabulary/2017#Variety,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.phenome-fppn.fr/vocabulary/2017#GeneticMaterial
+http://www.phenome-fppn.fr/vocabulary/2017#fromSpecies,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://www.phenome-fppn.fr/vocabulary/2017#fromSpecies,http://www.w3.org/2000/01/rdf-schema#range,http://www.phenome-fppn.fr/vocabulary/2017#Species
+http://www.phenome-fppn.fr/vocabulary/2017#fromVariety,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://www.phenome-fppn.fr/vocabulary/2017#fromVariety,http://www.w3.org/2000/01/rdf-schema#range,http://www.phenome-fppn.fr/vocabulary/2017#Variety
+http://www.phenome-fppn.fr/vocabulary/2017#fromVariety,http://www.w3.org/2000/01/rdf-schema#domain,http://www.phenome-fppn.fr/vocabulary/2017#Plot
+http://www.phenome-fppn.fr/vocabulary/2017#hasAlias,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://www.phenome-fppn.fr/vocabulary/2017#hasAlias,http://www.w3.org/2000/01/rdf-schema#domain,http://www.phenome-fppn.fr/vocabulary/2017#Plot
+http://www.phenome-fppn.fr/vocabulary/2017#hasAlias,http://www.w3.org/2000/01/rdf-schema#subPropertyOf,http://www.w3.org/2002/07/owl#topDataProperty
+http://www.w3.org/2002/07/owl#topDataProperty,http://www.w3.org/2000/01/rdf-schema#domain,http://www.phenome-fppn.fr/vocabulary/2017#Plot
+http://www.phenome-fppn.fr/vocabulary/2017#hasDocument,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://www.phenome-fppn.fr/vocabulary/2017#hasDocument,http://www.w3.org/2000/01/rdf-schema#label,document
+http://www.phenome-fppn.fr/vocabulary/2017#hasDocument,http://www.w3.org/2000/01/rdf-schema#label,document
+http://www.phenome-fppn.fr/vocabulary/2017#hasDocument,http://www.w3.org/2000/01/rdf-schema#range,http://www.phenome-fppn.fr/vocabulary/2017#Document
+http://www.phenome-fppn.fr/vocabulary/2017#hasDocument,http://www.w3.org/2000/01/rdf-schema#domain,http://www.w3.org/2002/07/owl#Thing
+http://www.phenome-fppn.fr/vocabulary/2017#hasExperiment,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://www.phenome-fppn.fr/vocabulary/2017#hasExperiment,http://www.w3.org/2000/01/rdf-schema#range,http://www.phenome-fppn.fr/vocabulary/2017#Experiment
+http://www.phenome-fppn.fr/vocabulary/2017#hasExperiment,http://www.w3.org/2000/01/rdf-schema#domain,http://www.phenome-fppn.fr/vocabulary/2017#Platform
+http://www.phenome-fppn.fr/vocabulary/2017#hasExperiment,http://www.w3.org/2000/01/rdf-schema#subPropertyOf,http://www.w3.org/2002/07/owl#topObjectProperty
+http://www.phenome-fppn.fr/vocabulary/2017#hasExperimentModalities,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://www.phenome-fppn.fr/vocabulary/2017#hasMethod,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://www.phenome-fppn.fr/vocabulary/2017#hasMethod,http://www.w3.org/2000/01/rdf-schema#range,http://www.phenome-fppn.fr/vocabulary/2017#Method
+http://www.phenome-fppn.fr/vocabulary/2017#hasMethod,http://www.w3.org/2000/01/rdf-schema#domain,http://www.phenome-fppn.fr/vocabulary/2017#Variable
+http://www.phenome-fppn.fr/vocabulary/2017#hasPlot,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://www.phenome-fppn.fr/vocabulary/2017#hasPlot,http://www.w3.org/2000/01/rdf-schema#range,http://www.phenome-fppn.fr/vocabulary/2017#Plot
+http://www.phenome-fppn.fr/vocabulary/2017#hasPlot,http://www.w3.org/2000/01/rdf-schema#domain,http://www.phenome-fppn.fr/vocabulary/2017#Experiment
+http://www.phenome-fppn.fr/vocabulary/2017#hasPlot,http://www.w3.org/2000/01/rdf-schema#subPropertyOf,http://www.w3.org/2002/07/owl#topObjectProperty
+http://www.phenome-fppn.fr/vocabulary/2017#hasRepetition,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://www.phenome-fppn.fr/vocabulary/2017#hasRepetition,http://www.w3.org/2000/01/rdf-schema#domain,http://www.phenome-fppn.fr/vocabulary/2017#Plot
+http://www.phenome-fppn.fr/vocabulary/2017#hasTrait,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://www.phenome-fppn.fr/vocabulary/2017#hasTrait,http://www.w3.org/2000/01/rdf-schema#range,http://www.phenome-fppn.fr/vocabulary/2017#Trait
+http://www.phenome-fppn.fr/vocabulary/2017#hasTrait,http://www.w3.org/2000/01/rdf-schema#domain,http://www.phenome-fppn.fr/vocabulary/2017#Variable
+http://www.phenome-fppn.fr/vocabulary/2017#hasUnit,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://www.phenome-fppn.fr/vocabulary/2017#hasUnit,http://www.w3.org/2000/01/rdf-schema#range,http://www.phenome-fppn.fr/vocabulary/2017#Unit
+http://www.phenome-fppn.fr/vocabulary/2017#hasUnit,http://www.w3.org/2000/01/rdf-schema#domain,http://www.phenome-fppn.fr/vocabulary/2017#Variable
+http://www.phenome-fppn.fr/vocabulary/2017#AgronomicalObject,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#Sensor,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#Vector,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.phenome-fppn.fr/vocabulary/2017#dateOfLastCalibration,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://www.phenome-fppn.fr/vocabulary/2017#dateOfPurchase,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://www.phenome-fppn.fr/vocabulary/2017#hasBrand,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://www.phenome-fppn.fr/vocabulary/2017#inServiceDate,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://www.phenome-fppn.fr/vocabulary/2017#measuredVariable,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty

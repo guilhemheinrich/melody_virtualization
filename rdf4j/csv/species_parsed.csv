@@ -1,0 +1,73 @@
+o,p,s
+http://www.phenome-fppn.fr/id/species/betavulgaris,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.phenome-fppn.fr/vocabulary/2017#Species
+http://www.phenome-fppn.fr/id/species/betavulgaris,http://www.w3.org/2000/01/rdf-schema#label,Beet
+http://www.phenome-fppn.fr/id/species/betavulgaris,http://www.w3.org/2000/01/rdf-schema#label,Betterave
+http://www.phenome-fppn.fr/id/species/betavulgaris,http://www.w3.org/2000/01/rdf-schema#label,Beta vulgaris
+http://www.phenome-fppn.fr/id/species/canabissativa,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.phenome-fppn.fr/vocabulary/2017#Species
+http://www.phenome-fppn.fr/id/species/canabissativa,http://www.w3.org/2000/01/rdf-schema#label,Hemp
+http://www.phenome-fppn.fr/id/species/canabissativa,http://www.w3.org/2000/01/rdf-schema#label,Chanvre
+http://www.phenome-fppn.fr/id/species/canabissativa,http://www.w3.org/2000/01/rdf-schema#label,Canabis sativa
+http://www.phenome-fppn.fr/id/species/glycinemax,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.phenome-fppn.fr/vocabulary/2017#Species
+http://www.phenome-fppn.fr/id/species/glycinemax,http://www.w3.org/2000/01/rdf-schema#label,Soybean
+http://www.phenome-fppn.fr/id/species/glycinemax,http://www.w3.org/2000/01/rdf-schema#label,Soja
+http://www.phenome-fppn.fr/id/species/glycinemax,http://www.w3.org/2000/01/rdf-schema#label,Glycine max
+http://www.phenome-fppn.fr/id/species/gossypiumhirsutum,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.phenome-fppn.fr/vocabulary/2017#Species
+http://www.phenome-fppn.fr/id/species/gossypiumhirsutum,http://www.w3.org/2000/01/rdf-schema#label,Upland cotton
+http://www.phenome-fppn.fr/id/species/gossypiumhirsutum,http://www.w3.org/2000/01/rdf-schema#label,Coton mexicain
+http://www.phenome-fppn.fr/id/species/gossypiumhirsutum,http://www.w3.org/2000/01/rdf-schema#label,Gossypium hirsutum
+http://www.phenome-fppn.fr/id/species/helianthusannuus,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.phenome-fppn.fr/vocabulary/2017#Species
+http://www.phenome-fppn.fr/id/species/helianthusannuus,http://www.w3.org/2000/01/rdf-schema#label,Sunflower
+http://www.phenome-fppn.fr/id/species/helianthusannuus,http://www.w3.org/2000/01/rdf-schema#label,Tournesol
+http://www.phenome-fppn.fr/id/species/helianthusannuus,http://www.w3.org/2000/01/rdf-schema#label,Helianthus annuus
+http://www.phenome-fppn.fr/id/species/linumusitatissum,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.phenome-fppn.fr/vocabulary/2017#Species
+http://www.phenome-fppn.fr/id/species/linumusitatissum,http://www.w3.org/2000/01/rdf-schema#label,Flax
+http://www.phenome-fppn.fr/id/species/linumusitatissum,http://www.w3.org/2000/01/rdf-schema#label,Lin
+http://www.phenome-fppn.fr/id/species/linumusitatissum,http://www.w3.org/2000/01/rdf-schema#label,Linum usitatissimum
+http://www.phenome-fppn.fr/id/species/lupinusalbus,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.phenome-fppn.fr/vocabulary/2017#Species
+http://www.phenome-fppn.fr/id/species/lupinusalbus,http://www.w3.org/2000/01/rdf-schema#label,Lupine
+http://www.phenome-fppn.fr/id/species/lupinusalbus,http://www.w3.org/2000/01/rdf-schema#label,Lupin blanc
+http://www.phenome-fppn.fr/id/species/lupinusalbus,http://www.w3.org/2000/01/rdf-schema#label,Lupinus albus
+http://www.phenome-fppn.fr/id/species/ordeumvulgare,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.phenome-fppn.fr/vocabulary/2017#Species
+http://www.phenome-fppn.fr/id/species/ordeumvulgare,http://www.w3.org/2000/01/rdf-schema#label,Barley
+http://www.phenome-fppn.fr/id/species/ordeumvulgare,http://www.w3.org/2000/01/rdf-schema#label,Orge
+http://www.phenome-fppn.fr/id/species/ordeumvulgare,http://www.w3.org/2000/01/rdf-schema#label,Ordeum vulgare
+http://www.phenome-fppn.fr/id/species/orizasativa,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.phenome-fppn.fr/vocabulary/2017#Species
+http://www.phenome-fppn.fr/id/species/orizasativa,http://www.w3.org/2000/01/rdf-schema#label,Rice
+http://www.phenome-fppn.fr/id/species/orizasativa,http://www.w3.org/2000/01/rdf-schema#label,Riz
+http://www.phenome-fppn.fr/id/species/orizasativa,http://www.w3.org/2000/01/rdf-schema#label,Oriza sativa
+http://www.phenome-fppn.fr/id/species/pennisetumglaucum,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.phenome-fppn.fr/vocabulary/2017#Species
+http://www.phenome-fppn.fr/id/species/pennisetumglaucum,http://www.w3.org/2000/01/rdf-schema#label,Pearl millet
+http://www.phenome-fppn.fr/id/species/pennisetumglaucum,http://www.w3.org/2000/01/rdf-schema#label,Mil
+http://www.phenome-fppn.fr/id/species/pennisetumglaucum,http://www.w3.org/2000/01/rdf-schema#label,Pennisetum glaucum
+http://www.phenome-fppn.fr/id/species/pisumsativum,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.phenome-fppn.fr/vocabulary/2017#Species
+http://www.phenome-fppn.fr/id/species/pisumsativum,http://www.w3.org/2000/01/rdf-schema#label,Peas
+http://www.phenome-fppn.fr/id/species/pisumsativum,http://www.w3.org/2000/01/rdf-schema#label,Pois protéagineux
+http://www.phenome-fppn.fr/id/species/pisumsativum,http://www.w3.org/2000/01/rdf-schema#label,Pisum sativum
+http://www.phenome-fppn.fr/id/species/populus,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.phenome-fppn.fr/vocabulary/2017#Species
+http://www.phenome-fppn.fr/id/species/populus,http://www.w3.org/2000/01/rdf-schema#label,Polar
+http://www.phenome-fppn.fr/id/species/populus,http://www.w3.org/2000/01/rdf-schema#label,Peuplier
+http://www.phenome-fppn.fr/id/species/populus,http://www.w3.org/2000/01/rdf-schema#label,Populus
+http://www.phenome-fppn.fr/id/species/sorghumbicolor,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.phenome-fppn.fr/vocabulary/2017#Species
+http://www.phenome-fppn.fr/id/species/sorghumbicolor,http://www.w3.org/2000/01/rdf-schema#label,Sorghum
+http://www.phenome-fppn.fr/id/species/sorghumbicolor,http://www.w3.org/2000/01/rdf-schema#label,Sorgho
+http://www.phenome-fppn.fr/id/species/sorghumbicolor,http://www.w3.org/2000/01/rdf-schema#label,Sorghum bicolor
+http://www.phenome-fppn.fr/id/species/teosine,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.phenome-fppn.fr/vocabulary/2017#Species
+http://www.phenome-fppn.fr/id/species/teosine,http://www.w3.org/2000/01/rdf-schema#label,Teosintes
+http://www.phenome-fppn.fr/id/species/teosine,http://www.w3.org/2000/01/rdf-schema#label,Téosintes
+http://www.phenome-fppn.fr/id/species/teosine,http://www.w3.org/2000/01/rdf-schema#label,Teosine
+http://www.phenome-fppn.fr/id/species/tritucumaestivum,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.phenome-fppn.fr/vocabulary/2017#Species
+http://www.phenome-fppn.fr/id/species/tritucumaestivum,http://www.w3.org/2000/01/rdf-schema#label,Bread wheat
+http://www.phenome-fppn.fr/id/species/tritucumaestivum,http://www.w3.org/2000/01/rdf-schema#label,Blé tendre
+http://www.phenome-fppn.fr/id/species/tritucumaestivum,http://www.w3.org/2000/01/rdf-schema#label,Triticum aestivum
+http://www.phenome-fppn.fr/id/species/tritucumturgidum,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.phenome-fppn.fr/vocabulary/2017#Species
+http://www.phenome-fppn.fr/id/species/tritucumturgidum,http://www.w3.org/2000/01/rdf-schema#label,Durum wheat
+http://www.phenome-fppn.fr/id/species/tritucumturgidum,http://www.w3.org/2000/01/rdf-schema#label,Blé dur
+http://www.phenome-fppn.fr/id/species/tritucumturgidum,http://www.w3.org/2000/01/rdf-schema#label,Triticum turgidum
+http://www.phenome-fppn.fr/id/species/viciafaba,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.phenome-fppn.fr/vocabulary/2017#Species
+http://www.phenome-fppn.fr/id/species/viciafaba,http://www.w3.org/2000/01/rdf-schema#label,Fababean
+http://www.phenome-fppn.fr/id/species/viciafaba,http://www.w3.org/2000/01/rdf-schema#label,Féverole
+http://www.phenome-fppn.fr/id/species/viciafaba,http://www.w3.org/2000/01/rdf-schema#label,Vicia faba
+http://www.phenome-fppn.fr/id/species/zeamays,http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type,http://www.phenome-fppn.fr/vocabulary/2017#Species
+http://www.phenome-fppn.fr/id/species/zeamays,http://www.w3.org/2000/01/rdf-schema#label,Maize
+http://www.phenome-fppn.fr/id/species/zeamays,http://www.w3.org/2000/01/rdf-schema#label,Maïs
+http://www.phenome-fppn.fr/id/species/zeamays,http://www.w3.org/2000/01/rdf-schema#label,Zea mays

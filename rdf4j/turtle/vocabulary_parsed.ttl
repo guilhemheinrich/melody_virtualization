@@ -1,0 +1,6 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+
+<http://www.phenome-fppn.fr/vocabulary/2017> <http://www.w3.org/1999-02-22T12:00:00+01:00-rdf-syntax-ns#type> "http://www.w3.org/2002/07/owl#Ontology"^^xsd:string .
+
+<http://www.phenome-fppn.fr/vocabulary/2017> <http://www.w3.org/2000/01/rdf-schema#comment> "Authors : Anne TIREAU, Alexandre MAIRIN, Jonathan MINEAU, Isabelle Nembrot, Morgane Vidal, Pascal NEVEU"^^xsd:string .
+

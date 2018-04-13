@@ -1,0 +1,125 @@
+Bootstrap: docker
+From: ubuntu:xenial
+
+%environment
+    # set data directory in the container for rdf4j
+    JAVA_OPTS='-Dorg.eclipse.rdf4j.appdata.basedir=/home/phis/RDF4J'
+    export JAVA_OPTS
+
+    # for tomcat
+    CATALINA_HOME=/home/phis/tomcat/apache-tomcat-9.0.7
+    export CATALINA_HOME
+
+    # for mongo
+    LC_ALL=C
+    export LC_ALL
+
+%files
+    tomcat-users.xml
+    apache-tomcat-9.0.7.tar.gz
+    postgres_init.sql
+    postgres_diaphen.sql
+    phismelody-all.sql
+    field_147.100.175.121:27017.agz
+    rdf4j-server.war
+    rdf4j-workbench.war
+    phenomeMelodyAPI.war
+    start.sh
+
+
+
+%post
+    useradd -d /home/phis -m -p fieldc1.61! phis
+    mkdir /home/phis/rous-ws
+    mkdir /opt/tomcat
+    
+    apt-get update
+
+    # always usefull
+    apt-get install -y nano default-jdk wget apache2 curl git
+
+    # install tomcat 9 follwoing <https://www.rosehosting.com/blog/install-tomcat-9-on-an-ubuntu-16-04-vps/>
+    useradd -r tomcat9 --shell /bin/false
+
+    # wget http://mirror.symnds.com/software/Apache/tomcat/tomcat-9/v9.0.0.M9/bin/apache-tomcat-9.0.0.M9.tar.gz
+    mkdir /home/phis/tomcat
+    cd /home/phis/tomcat
+    tar -zxf /apache-tomcat-9.0.7.tar.gz
+    ln -s apache-tomcat-9.0.7 tomcat-latest
+    chown -hR tomcat9: tomcat-latest apache-tomcat-9.0.7
+
+    mkdir /var/www/html/phis
+    chown -R phis:www-data /var/www/html
+
+    # # tomcat config file
+
+    cp /tomcat-users.xml /home/phis/tomcat/apache-tomcat-9.0.7/conf/
+    cp /rdf4j-server.war /home/phis/tomcat/apache-tomcat-9.0.7/webapps/
+    cp /rdf4j-workbench.war /home/phis/tomcat/apache-tomcat-9.0.7/webapps/
+    cp /phenomeMelodyAPI.war /home/phis/tomcat/apache-tomcat-9.0.7/webapps/
+
+
+
+
+    # # From wiki <https://mulcyber.toulouse.inra.fr/plugins/mediawiki/wiki/phenome/index.php/D%C3%A9ploiement_de_PHIS_champ>
+    echo "org.apache.tomcat.util.buf.UDecoder.ALLOW_ENCODED_SLASH=true" >> /home/phis/tomcat/apache-tomcat-9.0.7/conf/catalina.properties
+
+    # # install psql
+    apt-get install postgresql postgresql-contrib -y
+    
+
+    # Install postgis from <https://stackoverflow.com/questions/4629796/issues-installing-postgis>
+
+    # required for add-apt-repository
+    apt-get install software-properties-common -y
+
+    add-apt-repository ppa:ubuntugis/ubuntugis-unstable -y
+    apt-get install postgis -y
+
+    cd /
+    service postgresql start
+    su -c "psql < /postgres_init.sql" postgres
+    su -c "psql diaphen < /postgres_diaphen.sql" phis
+    su -c "psql diaphen < /phismelody-all.sql" phis
+
+
+
+    # install mongodb
+    apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
+    echo "deb http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse" | tee /etc/apt/sources.list.d/mongodb-org-3.2.list
+    apt-get update
+    apt-get install -y mongodb-org
+
+    # load data
+    mkdir /home/phis/db
+
+    # apt-get install yum pkg-config php-pear php7.0-dev apt-transport-https 
+
+    
+    # start mongod
+    # mongod --dbpath /home/phis/db
+
+    # pecl install mongodb
+
+    # pear install http_request2
+
+    # NEED CHECKING THIS !!
+    # echo 'extension=mongodb.so' >> /etc/php5/apache2/php.ini
+
+    
+    # Enable mongo in php.ini
+
+    # install php 7.0 and use it with apache2
+    # apt-get install php7.0 php7.0-fpm libapache2-mod-php7.0 -y
+    
+    # # use pgsql with php
+    # apt-get install php-pgsql -y
+    
+    # # Installing composer
+    # curl -sS https://getcomposer.org/installer | php
+    # mv composer.phar /usr/local/bin/composer
+    # chown -R phis ~/.composer/
+
+
+    # # start psql server (inside container)
+    # service postgresql start

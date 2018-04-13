@@ -1,0 +1,8 @@
+{
+    "prefix" : [
+        ""
+    ],
+    "associativeRules": [
+        "<{o}> <{p}> <{s}> ."
+    ]
+}
