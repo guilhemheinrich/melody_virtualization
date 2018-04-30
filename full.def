@@ -15,16 +15,16 @@ From: ubuntu:xenial
     export LC_ALL
 
 %files
-    tomcat-users.xml
-    apache-tomcat-9.0.7.tar.gz
-    postgres_init.sql
-    postgres_diaphen.sql
-    phismelody-all.sql
-    field_147.100.175.121:27017.agz
-    rdf4j-server.war
-    rdf4j-workbench.war
-    phenomeMelodyAPI.war
-    start.sh
+    init_files/tomcat-users.xml
+    init_files/apache-tomcat-9.0.7.tar.gz
+    init_files/postgres_init.sql
+    init_files/postgres_diaphen.sql
+    init_files/phismelody-all.sql
+    init_files/field_147.100.175.121:27017.agz
+    init_files/rdf4j-server.war
+    init_files/rdf4j-workbench.war
+    init_files/phenomeMelodyAPI.war
+    init_files/start.sh
 
 
 
